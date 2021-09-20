@@ -1,0 +1,32 @@
+{
+  "name": "projeto-mauro",
+  "version": "1.0.0",
+  "description": "Projeto Final - Curso Cappacita Dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrccunha/projeto-final-curso-cappacita.git"
+  },
+  "author": "Mauro Roberto da Cruz Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrccunha/projeto-final-curso-cappacita/issues"
+  },
+  "homepage": "https://github.com/mrccunha/projeto-final-curso-cappacita#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
